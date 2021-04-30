@@ -29,6 +29,8 @@ export class BurgerBuilder extends Component {
   };
 
   updatePurchaseState(ingredients) {
+
+    console.log('Yo1')
     const sum = Object.keys(ingredients)
       .map((igKey) => {
         return ingredients[igKey];
